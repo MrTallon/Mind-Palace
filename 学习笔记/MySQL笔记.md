@@ -198,7 +198,7 @@ row格式会记录行内容（两条），更新前和后
 
 5.执行器调用引擎的提交事物接口，redo log改成提交（commit）状态，更新完成
 
-![image-20181211133910036](/Users/yangbo/Library/Application Support/typora-user-images/image-20181211133910036.png)
+![image-20181211133910036](/Users/yangbo/Desktop/mysql01.png)
 
 
 
@@ -289,7 +289,7 @@ mysql> show variables like 'transaction_isolation';
 
 
 
-![image-20181214160942410](/Users/yangbo/Library/Application Support/typora-user-images/image-20181214160942410.png)
+![image-20181214160942410](/Users/yangbo/Desktop/mysql02.png)
 
 当前值是4，不同时刻启动事务就会有不同的read-view。
 

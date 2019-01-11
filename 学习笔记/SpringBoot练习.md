@@ -302,6 +302,6 @@ docker run -e ES_JAVA_OPTS="-Xms256m -Xmx256m" -d -p 9200:9200 -p 9300:9300 --na
 
 
 
-![image-20181213164222989](/Users/yangbo/Library/Application Support/typora-user-images/image-20181213164222989.png)
+![image-20181213164222989](/Users/yangbo/Desktop/sb01.png)
 
 

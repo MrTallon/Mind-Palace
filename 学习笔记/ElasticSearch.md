@@ -1,6 +1,6 @@
 # ES学习笔记
 
-![image-20181211232012534](/Users/yangbo/Library/Application Support/typora-user-images/image-20181211232012534.png)
+![image-20181211232012534](/Users/yangbo/Desktop/es01.png)
 
 [TOC]
 
@@ -31,7 +31,7 @@ cd elasticsearch-6.5.2
 ./bin/elasticsearch
 ```
 
-![image-20181212120442869](/Users/yangbo/Library/Application Support/typora-user-images/image-20181212120442869.png)
+![image-20181212120442869](/Users/yangbo/Desktop/es02.png)
 
 ##### 2.安装x-pack
 
@@ -78,7 +78,7 @@ http://localhost:9200/_cat
 
 #### 插件
 
-![image-20181211232819413](/Users/yangbo/Library/Application Support/typora-user-images/image-20181211232819413.png)
+![image-20181211232819413](/Users/yangbo/Desktop/es03.png)
 
 
 
@@ -112,7 +112,7 @@ Spring data elastic search 引用的是3.1.2
 
 
 
-![image-20181213124746528](/Users/yangbo/Library/Application Support/typora-user-images/image-20181213124746528.png)
+![image-20181213124746528](/Users/yangbo/Desktop/es04.png)
 
 ##### 两种用法
 

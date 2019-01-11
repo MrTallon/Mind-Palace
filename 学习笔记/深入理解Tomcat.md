@@ -123,7 +123,7 @@ Connector的主要功能，是接收连接请求，创建Request和Response对�
 
 （2）通过配置第2个Connector，客户端可以通过8009端口号使用AJP协议访问Tomcat。AJP协议负责和其他的HTTP服务器(如Apache)建立连接；在把Tomcat与其他HTTP服务器集成时，就需要用到这个连接器。之所以使用Tomcat和其他服务器集成，是因为Tomcat可以用作Servlet/JSP容器，但是对静态资源的处理速度较慢，不如Apache和IIS等HTTP服务器；因此常常将Tomcat与Apache等集成，前者作Servlet容器，后者处理静态资源，而AJP协议便负责Tomcat和Apache的连接。Tomcat与Apache等集成的原理如下图。
 
-![image-20181216004743673](/Users/yangbo/Library/Application Support/typora-user-images/image-20181216004743673.png)
+![image-20181216004743673](/Users/yangbo/Desktop/tomcat01.png)
 
 ### 4.Engine
 
