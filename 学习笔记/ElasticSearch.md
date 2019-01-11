@@ -1,6 +1,14 @@
 # ES学习笔记
 
-![image-20181211232012534](/Users/yangbo/Desktop/es01.png)
+![image-20181211232012534](/https://github.com/MrTallon/Mind-Palace/blob/master/img/es01.png)
+
+
+
+![https://github.com/MrTallon/Mind-Palace/blob/master/img/es01.png](https://github.com/MrTallon/Mind-Palace/blob/master/img/es01.png)
+
+
+
+![test](https://github.com/MrTallon/Mind-Palace/blob/master/img/es01.png)
 
 [TOC]
 
