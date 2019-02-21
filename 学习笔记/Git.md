@@ -43,7 +43,7 @@
 - 能够创建 Branch (分支)，可以根据不同的场景进行开发
 - 能够创建 Tag (标签)，建立项目里程碑
 
-![git02](/Users/yangbo/Desktop/git02.jpg)
+![git02](https://github.com/MrTallon/Mind-Palace/blob/master/img/git02.jpg?raw=true)
 
 ## GitHub
 
@@ -159,7 +159,7 @@ master主干代码不能被污染
 
 
 
-![git003](/Users/yangbo/Desktop/git003.png)
+![git003](https://github.com/MrTallon/Mind-Palace/blob/master/img/git003.png?raw=true)
 
 ### GitFlow
 
@@ -171,13 +171,13 @@ master主干代码不能被污染
 
 
 
-![git006](/Users/yangbo/Desktop/git006.png)
+![git006](https://github.com/MrTallon/Mind-Palace/blob/master/img/git006.png?raw=true)
 
 #### 历史分支
 
 相对使用仅有的一个 master 分支，GitFlow 工作流使用2个分支来记录项目的历史。master 分支存储了正式发布的历史，而 develop 分支作为功能的集成分支。这样也方便 master 分支上的所有提交分配一个版本号。
 
-![git007](/Users/yangbo/Desktop/git007.png)
+![git007](https://github.com/MrTallon/Mind-Palace/blob/master/img/git007.png?raw=true)
 
 #### 功能分支
 
@@ -185,17 +185,17 @@ master主干代码不能被污染
 
 
 
-![git008](/Users/yangbo/Desktop/git008.png)
+![git008](https://github.com/MrTallon/Mind-Palace/blob/master/img/git008.png?raw=true)
 
 
 
 #### 发布分支
 
-![git009](/Users/yangbo/Desktop/git009.png)
+![git009](https://github.com/MrTallon/Mind-Palace/blob/master/img/git009.png?raw=true)
 
 #### 维护分支
 
-![git010](/Users/yangbo/Desktop/git010.png)
+![git010](https://github.com/MrTallon/Mind-Palace/blob/master/img/git010.png?raw=true)
 
 
 
@@ -231,13 +231,57 @@ v1.0.0->v1.1.0;	新增功能
 
 
 
+开发的一定阶段，合并master（）
+
+做法就是再开发一个分支，基于dep，命名release-1.0.0
+
+切换release，测试玩一遍，无任何bug再推送master
+
+只有预发售版才能合并master，
+
+本地回到master分支，拉取完整项目，创建标签，
+
+1.0.0-RELEASE，推送仓库（包括标签）
+
+查看一下标签，完美。
+
+问题：1.0.0bug出来了，
+
+new issue 提bug
+
+使用hotfix（补丁分支）来修复
+
+通过标签检出，会发现自动创建新分支，
+
+因为标签就是不可再修改了
+
+新分支：hotfix_0004（序号）
+
+新建文件表示修复（提交到hotfix分支）
+
+之后hotfix直接合并到master。
+
+最后切换分支到master拉取最新，
+
+发现master分支已修复，
+
+发布新版本，创建标签，
+
+1.0.1-RELEASE
+
+推送到服务器（包括标签）
+
+最后，删除dep和master的其他分支
+
+
+
 
 
 ### Forking
 
 
 
-![git005](/Users/yangbo/Desktop/git005.png)
+![git005](https://github.com/MrTallon/Mind-Palace/blob/master/img/git005.png?raw=true)
 
 
 
